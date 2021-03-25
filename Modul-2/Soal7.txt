@@ -1,0 +1,10 @@
+NIM -- state dari mahasiswa
+ambilNIM -- method dari mahasiswa
+ambilNama -- method dari mahasiswa
+ambilUangSaku -- method mahasiswa
+katakanPy -- method MhsTIF
+keadaan -- state manusia
+kotaTinggal -- state mahasiswa
+makan -- method manusia & mahasiswa
+mengalikanDenganDua -- method manusia
+nama -- state manusia
