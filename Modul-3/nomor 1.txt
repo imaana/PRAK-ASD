@@ -1,0 +1,27 @@
+A = [ [2,3], [5,7] ]
+B = [ [0 for j in range(3)] for i in range(3) ]
+
+#Membuat list kuadrat bilangan dari 0 sampai 6
+[x**2 for x in range(0,7)]
+
+#Membuat list yang berisi tuple pasangan bilangan dan kuadratnya, dari 0 sampai 6
+[(x,x**2) for x in range(7)]
+
+#Membuat list kuadrat bilangan genap antara 0 dan 15
+[x**2 for x in range(15) if x%2==0]
+
+#Membuat list sepanjang 5 elemen yang berisi bilangan 3
+[3 for i in range(5)]
+
+#Membuat list sepanjang tiga elemen yang berisi list sepanjang 3 elemen angka 0
+[ [0 for j in range(3)] for i in range(3) ]
+
+#Membuat matrix identitas 3 × 3
+[ [ 1 if j==i else 0 for j in range(3) ] for i in range(3) ]
+
+#Membuat list yang berisi huruf vokal suatu string
+d = "Yogyakarta dan Surakarta."
+[x for x in d if x in "aiueoAIUEO"]
+
+#Membuat list bilangan primaa dari 20 sampai 50
+[x for x in range(20,50) if apakahPrima(x)]
